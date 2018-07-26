@@ -199,7 +199,7 @@
   background-repeat: no-repeat;
 }
 
-
+/* вторая секция */
 .first_section {
   height: 945px;
   background-color:rgba(81, 106, 145, 0.15);
@@ -222,7 +222,9 @@
   margin-bottom: 195px;
   background-color: #3a5695;
 }
+/* Для двух блоков сразу */
 .main_block2 {
+  position: relative;
   width: 410px;
   height: 596px;
   padding: 65px;
@@ -231,23 +233,19 @@
   background-color: #ffffff;
   margin-left: 115px;
   margin-top: 155px;
+  box-shadow: 0 10px 20px 0 rgba(81, 89, 145, 0.15);
+  transition-duration: 0.2s;
 }
-/* .main_block3 {
-  display: flex;
-  width: 410px;
-  height: 596px;
-  border-radius: 2px;
-  background-color: #ffffff;
-}*/
-.span_1 {
-  width: 112px;
-  height: 142px;
+.block_1 {
+  display: block;
+  width: 113px;
+  height: 143px;
   /* border: 1px dashed red; */
   background-image: url(image/2.svg);
   background-repeat: no-repeat;
   margin-top: 177px;
 }
-.span_2 {
+.span_1 {
   display: block;
   /* border: 1px dashed red; */
   width: 227px;
@@ -258,16 +256,54 @@
   color: #ffffff;
   margin-top: 51px;
 }
-.block_1 {
-  border: 1px dashed red;
+.block_2 {
+  /* border: 1px dashed red; */
   width: 260px;
   height: 260px;
   background-image: url(image/audit.svg);
   background-repeat: no-repeat;
+  padding-bottom: 41px;
 }
 .span_2_1 {
-
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  color: #3a5695;
+  text-align: center;
+  padding-bottom: 27px;
 }
 .span_2_2 {
-
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  color: #999999;
+  text-align: center;
+  min-height: 71px;
+  /* border: 1px dashed red; */
+}
+.main_block2.first_section::before,
+.main_block2.second_section:before {
+  display: block;
+  font-family: sans-serif;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  content: "1";
+  font-size: 84px;
+  /* border: 1px dashed red; */
+  color: rgba(81, 106, 145, 0.15);
+  transition-duration: 0.2s;
+}
+.main_block2.second_section:before {
+  content: "2";
+}
+.main_block2:hover::before {
+  color:#3a5695;
+}
+.main_block2:hover {
+  box-shadow: 0 20px 50px 0 rgba(81, 108, 145, 0.53);
 }
