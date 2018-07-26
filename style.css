@@ -227,7 +227,7 @@
   position: relative;
   width: 410px;
   height: 596px;
-  padding: 65px;
+  padding: 53px;
   box-sizing: border-box;
   border-radius: 2px;
   background-color: #ffffff;
@@ -258,7 +258,6 @@
 }
 .block_2 {
   /* border: 1px dashed red; */
-  width: 260px;
   height: 260px;
   background-image: url(image/audit.svg);
   background-repeat: no-repeat;
@@ -307,3 +306,31 @@
 .main_block2:hover {
   box-shadow: 0 20px 50px 0 rgba(81, 108, 145, 0.53);
 }
+.block_3 {
+  height: 260px;
+  background-image: url(image/test.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 41px;
+}
+.span_3_1 {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  color: #3a5695;
+  text-align: center;
+  padding-bottom: 27px;
+}
+.span_3_2 {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #999999;
+  text-align: center;
+  min-height: 71px;
+}
+
+/* третья секция */
