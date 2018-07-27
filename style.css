@@ -201,7 +201,6 @@
 
 /* вторая секция */
 .first_section {
-  height: 945px;
   background-color:rgba(81, 106, 145, 0.15);
 }
 .container {
@@ -334,3 +333,86 @@
 }
 
 /* третья секция */
+
+.second_section {
+   background-color: #ffffff;
+}
+.second_section_h1 {
+  width: 590px;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  color: #2b2c33;
+  margin-top: 140px;
+  margin-left: 231px;
+  /* border: 1px dashed red; */
+}
+.second_section_ul {
+  display: flex;
+  width: 1420px;
+  /* border: 1px dashed red; */
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.second_section_ul li {
+  display: block;
+  margin-top: 70px;
+  /* border: 1px dashed red; */
+  margin-bottom: 140px;
+  max-width: 250px;
+  padding-left: 120px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  color: #2b2c33;
+  padding-right: 80px;
+  flex: 0 0 33%;
+}
+.second_section_li {
+  position: relative;
+}
+.second_section_li:before {
+  position: absolute;
+  content: "";
+  display: block;
+  left: 0;
+  top: 50%;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 60px;
+}
+.second_section_li_1:before {
+  background-image: url(image/icon_tablet.svg);
+}
+.second_section_li_2:before {
+  background-image: url(image/icon_lock.svg);
+}
+.second_section_li_3:before {
+  background-image: url(image/icon_analytics.svg);
+}
+.second_section_li_4:before {
+  background-image: url(image/icon_safe.svg);
+}
+.second_section_li_5:before {
+  background-image: url(image/icon_people.svg);
+}
+.second_section_li_6:before {
+  background-image: url(image/icon_roll.svg);
+}
+.second_section_li_7:before {
+  background-image: url(image/icon_paper.svg);
+}
+.second_section_li_8:before {
+  background-image: url(image/icon_puzzle.svg);
+}
+.second_section_li_9:before {
+  background-image: url(image/icon_game.svg);
+}
