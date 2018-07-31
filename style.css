@@ -475,7 +475,7 @@
 .three_section {
   display: flex;
   background-color: #2b2c33;
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
 .three_section_block1 {
   width: 830px;
@@ -556,4 +556,22 @@
   padding: 16px 28px;
   margin-bottom: 142px;
   border: 0px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  background-color: #ffffff;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+.footer__span {
+  height: 19px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #686c7c;
+  margin-top: 91px;
+  margin-bottom: 90px;
 }
