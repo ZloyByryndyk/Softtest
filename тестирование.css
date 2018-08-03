@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700&subset=cyrillic');
+.section {
+  background-image: url(image/picture_test.svg);
+  height: 920px;
+  width: 100%;
+  background-color: #2b2c33;
+}
+.section__nav {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 230px;
+}
+.logo {
+  width: 121px;
+  height: 97px;
+  margin-right: 144px;
+  background-repeat: no-repeat;
+  background-image: url(image/logo.svg);
+}
+.nav_ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav_ul li {
+  list-style-type: none;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-align: left;
+  color: #ffffff;
+  margin-right: 80px;
+}
+.nav_ul_2{
+  display: flex;
+  align-items: center;
+  margin-left: 475px;
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.nav_ul_2 a {
+  color: white;
+  text-decoration: none;
+}
+.nav_ul_2 li {
+  list-style-type: none;
+  height: 19px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+.ul_bottom {
+  position: relative;
+  border-radius: 2px;
+  padding: 16px 33px;
+  margin-right: 67px;
+}
+.ul_bottom::after,.ul_bottom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.2s;
+}
+.ul_bottom::after {
+  bottom: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.ul_bottom::before {
+  top:0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+.ul_bottom:hover:before,.ul_bottom:hover:after {
+  width: 80%;
+  height: 80%;
+}
+.container {
+  margin-left: 230px;
+}
+.container_h1 {
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 100;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 180px;
+  margin-bottom: 21px;
+}
+.container_span {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #686c7c;
+}
+.container_buttom {
+  display: inline-block;
+  width: 229px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #c01517;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 16px 28px;
+  margin-left: 230px;
+  margin-top: 56px;
+}
+.container_buttom a {
+  color: white;
+  text-decoration: none;
+}
