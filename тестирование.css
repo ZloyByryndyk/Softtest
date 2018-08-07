@@ -175,7 +175,7 @@
 .section_3 {
   background-color: rgba(81, 106, 145, 0.15);
 }
-.container_h1_3 {
+.section_3_div {
   font-family: 'Montserrat';
   font-size: 40px;
   font-weight: 600;
@@ -188,10 +188,10 @@
   display: flex;
   margin-left: 230px;
   margin-right: 230px;
-  
-  border: solid red 1px;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 97px;
+  margin-bottom: 140px;
 }
 .container_div {
   width: 422px;
@@ -199,5 +199,88 @@
   border-radius: 2px;
   background-color: #ffffff;
   box-shadow: 0 10px 20px 0 rgba(81, 89, 145, 0.15);
-  margin-top: 97px;
+
+}
+.container_div.second {
+  margin-top: 100px;
+}
+.container_div_span {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  color: #3a5695;
+  margin-top: 60px;
+  margin-left: 60px;
+  max-width: 260px;
+}
+.hr {
+   border-radius: 2px;
+   background-color: #d1d8e6;
+   height: 3px;
+   width: 40px;
+   border: 0px;
+   margin: 36px 0 0 60px;
+}
+.container_div_p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #222227;
+  margin: 36px 0 0 60px;
+  max-width: 285px;
+  line-height: 1.88;
+}
+.container_div.last {
+  position: relative;
+}
+.inner,.hover_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.inner {
+display:block;
+}
+.hover_inner {
+  display: none;
+  border-radius: 2px;
+  background-color: #3a5695;
+}
+.container_div.last:hover {
+  cursor: pointer;
+}
+.container_div.last:hover .hover_inner {
+  display: block !important;
+
+}
+.container_div.last:hover .inner {
+  display: none !important;
+}
+.span_target {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-left: 60px;
+  max-width: 260px;
+}
+.container_div_p_target {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 36px 0 0 60px;
+  max-width: 285px;
+  line-height: 1.88;
 }
