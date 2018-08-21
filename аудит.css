@@ -153,6 +153,7 @@
   width: 872px;
   margin-left: 230px;
   margin-top: 138px;
+  margin-bottom: 185px;
 }
 .section_2_h2 {
   font-family: 'Montserrat';
@@ -182,7 +183,7 @@
   line-height: 2.13;
   text-align: left;
   color: #222227;
-  margin-bottom: 185px;
+
 }
 .section_2 img {
   display: block;
@@ -190,4 +191,90 @@
   height: 436px;
   margin-left: 152px;
   margin-top: 95px;
+}
+/* ТРЕТЬЯ СЕКЦИЯ */
+.section_3 {
+  display: block;
+  border: 1px solid rgba(81, 106, 145, 0.15);
+  background-color: rgba(81, 106, 145, 0.15);
+}
+.section_3_h2 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.23;
+  text-align: left;
+  color: #2b2c33;
+  margin-left: 230px;
+  margin-top: 110px;
+  min-width: 280px;
+}
+.section_3_maindiv {
+  display: flex;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: 85px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 140px;
+}
+.section_3_div {
+
+  width: 681px;
+  height: 492px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px 0 rgba(81, 89, 145, 0.15);
+  box-shadow: 0 10px 20px 0 rgba(81, 89, 145, 0.15);
+}
+.section_3_div.second {
+  margin-top: 98px;
+}
+.section_3_span {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #3a5695;
+  margin-left: 60px;
+  margin-top: 60px;
+  min-width: 440px;
+}
+.hr {
+  border-radius: 2px;
+  background-color: #d1d8e6;
+  height: 3px;
+  width: 40px;
+  border: 0px;
+  margin: 36px 0 0 60px;
+}
+.section_3_p_main {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.88;
+  text-align: left;
+  color: #222227;
+  margin-left: 60px;
+  margin-top: 36px;
+  max-width: 570px;
+  margin-bottom: 0;
+}
+.section_3_p {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 2.86;
+  text-align: left;
+  color: #222227;
+  margin-left: 94px;
+  margin-top: 36px;
+  max-width: 420px;
+  margin-bottom: 0;
 }
