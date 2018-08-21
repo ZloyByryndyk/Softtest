@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="аудит.css">
+    <title>Аудит</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header"> <img src="image/picture_main.svg" class="picture_main">
+      <nav class="navigation-header">
+        <div class="header-logo">
+        </div>
+        <ul class="list-first">
+          <li>Тестирование</li>
+          <li>Аудит</li>
+          <li>О нас</li>
+        </ul>
+        <ul class="list-second">
+          <li class="header-bottom">Заказать</li>
+          <li><a href="#">Eng</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article class="article">
+        <h1 class="title-1">Аудит</h1>
+        <h3 class="title-3">Всесторонний анализ эффективности процессов, действующих в вашей компании</h3>
+        <bottom class="bottom">ОСТАВИТЬ ЗАЯВКУ</bottom>
+        <article/>
+    </section>
+    <!-- ВТОРАЯ СЕКЦИЯ -->
+    <se class="section_2">
+      <div class="section_2_div_1">
+      <h2 class="section_2_h2">Проведение программы аудита</h2>
+      <h3 class="section_2_h3">Компанда SOFT TEST предлагает сервис всестороннего анализа эффективности процессов действующих в вашей компании.</h3>
+      <spa class="section_2_spa">Аудит проводится профессионалами  финансовой и IT-сферы. Результатом аудита станет оптимизация технологических  процессов, повышение защищенности и коммерческой эффективности бизнес-процессов Вашей компании.</spa>
+      </div>
+        <img src="image/аудит.svg" alt="">
+    </se>
+  </body>
+</html>
+<!-- ТРЕТЬЯ СЕКЦИЯ -->
+<sec class="section_3">
+  <h2 class="section_3_h2">Виды аудита</h2>
+  <div class="section_3_maindiv">
+    <div class="section_3_div">
+      <span class="section_3_span">Информационная безопасность</span>
+      <hr class="hr">
+      <p class="section_3_p_main">Проверка состояния сетевой инфраструктуры</p>
+      <p class="section_3_p">Сканирование локальных сетей<br>
+         Этичный хакинг<br>
+         Тестирование безопасности сетевого периметра<br>
+         Аудит безопасности сайта<br>
+         Нагрузочное тестирование
+       </p>
+    </div>
+    <div class="section_3_div other">
+      <span class="section_3_span other">Безопасность банковских систем</span>
+      <p class="section_3_p other">
+        бюджет
+        от 590 000 Р <br>
+         срок
+         от 3 месяцев <br>
+         рабочая группа<br>
+         —  менеджер проекта <br>
+         —  5 аналитиков <br>
+         —  8 тестировщиков <br>
+         —  2 программиста <br>
+         —  операционист <br>
+         —  специалист безопасности
+      </p>
+      <button class="button" type="button" name="button">ЗАКАЗАТЬ</button>
+    </div>
+    <div class="section_3_div second">
+      <span class="section_3_span">Решения для платежных приложений</span>
+      <hr class="hr">
+      <p class="section_3_p_main">Подготовка документов для прохождения аудита на соответствие
+          PA DSS (Payment Application Data Security Standard)</p>
+      <p class="section_3_p">Хранение данных о держателях карт<br>
+         Защищенная идентификация пользователей<br>
+         Регистрация всех действий в системе<br>
+         Защищенная беспроводная передача данных<br>
+         Тестирование для проверки уязвимостей приложений
+      </p>
+    </div>
+    <div class="section_3_div second">
+      <span class="section_3_span">Технологический аудит</span>
+      <hr class="hr">
+      <p class="section_3_p_main">Тестирование уязвимости банковских систем с помощью системы
+         Positive Technologies XSpider эмитирующую действия
+         злоумышленника инсайдера сотрудника Банка позволяет</p>
+    </div>
+  </div>
+</sec>
+<!-- ФУТТЕР -->
+</section>
+<section class="three_section">
+    <div class="three_section_block1">
+      <h1 class="three_section_h1">Закажите сейчас</h1>
+      <span class="three_section_span">Команда Софт Тест, обладая широкими компетенциями
+                                       в сферах IT-технологий и защиты информации может
+                                       разработать и организовать особую программу аудита
+                                       соотвествующую потребностям Вашей компании.
+                                       Оставьте заявку и мы свяжемся с Вами.</span>
+    </div>
+    <div>
+      <div class="three_section_block2">
+        <input class="text1" type="text" placeholder="ФИО">
+        <input class="text1" type="text" placeholder="E-mail">
+        <input class="text1" type="text" placeholder="Телефон">
+        <textarea class="text2" type="text" placeholder="Сообщение"></textarea>
+      </div>
+      <button class="bottom2" type="button" name="button">Оставить заявку</button>
+    </div>
+</section>
+<footer class="footer">
+  <span class="footer__span">© 2018 ООО «СОФТ ТЕСТ»</span>
+  <span class="footer__span">Правила пользования сайтом</span>
+</footer>
