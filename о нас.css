@@ -192,5 +192,108 @@ background-color: #2b2c33;
   max-width: 952px;
 }
 .img {
-  margin-left: 90px;
+  display: flex;
+  align-self: center;
+  margin-right: 160px;
+}
+.p_foto_first {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.13;
+  text-align: left;
+  color: #8194c1;
+  margin-left: 260px;
+  margin-bottom: 0;
+}
+.p_foto_second {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.19;
+  text-align: left;
+  color: #999999;
+  max-width: 111px;
+  margin-left: 260px;
+  margin-top: 6px;
+}
+.last_sp {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 26px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.54;
+  text-align: left;
+  color: #686c7c;
+  margin-left: 230px;
+  margin-top: 78px;
+  max-width: 833px;
+}
+.container_for_partner {
+  display: flex;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+  justify-content: space-between;
+  height: 180px;
+  align-items: center;
+}
+/* ФУТТЕР */
+.footer {
+  display: flex;
+  background-color: #2b2c33;
+}
+.block_1 {
+  flex: 0 0 50%;
+  border: 1px dashed red;
+}
+.section_h2.footer {
+  color: #ffffff;
+  margin-top: 129px;
+  margin-bottom: 0px;
+}
+.footer_p {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.88;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 230px;
+  margin-top: 38px;
+}
+.footer_map {
+  width: 706px;
+  height: 551px;
+  margin-left: 230px;
+  margin-top: 63px;
+}
+.block_2 {
+  flex: 0 0 50%;
+  border: 1px dashed red;
+}
+.container_footer {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-top: 240px;
+  margin-left: 298px;
+  height: 674px;
+  border: 1px dashed red;
+  max-width: 300px;
+}
+.footer_p_list {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
