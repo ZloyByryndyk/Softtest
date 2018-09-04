@@ -25,6 +25,7 @@
 }
 .header-logo {
   display: flex;
+  position: relative;
   width: 121px;
   height: 97px;
   margin-left: 230px;
@@ -32,6 +33,11 @@
   background-image: url(image/logo.svg);
   background-size: cover;
   background-position: center;
+}
+.header-logo a {
+  position: fixed;
+  width: 121px;
+  height: 97px;
 }
 .list-first {
   display: flex;
@@ -96,6 +102,10 @@
 .header-bottom:hover:before,.header-bottom:hover:after {
   width: 80%;
   height: 80%;
+}
+.list-first a{
+  color: white;
+  text-decoration: none;
 }
 .list-second a{
   color: white;

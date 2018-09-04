@@ -12,11 +12,17 @@
   margin-left: 230px;
 }
 .logo {
+  position: relative;
   width: 121px;
   height: 97px;
   margin-right: 144px;
   background-repeat: no-repeat;
   background-image: url(image/logo.svg);
+}
+.logo a {
+  position: fixed;
+  width: 121px;
+  height: 97px;
 }
 .nav_ul {
   display: flex;
@@ -33,6 +39,10 @@
   text-align: left;
   color: #ffffff;
   margin-right: 80px;
+}
+.nav_ul a{
+  color: white;
+  text-decoration: none;
 }
 .nav_ul_2{
   display: flex;
