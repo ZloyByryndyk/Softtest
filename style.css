@@ -4,12 +4,9 @@
 
 /* Тут шапка начинается */
 .picture_main {
-  display: block;
+
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 920px;
+
   background-color: #2b2c33;
   z-index: -1;
 }
@@ -21,21 +18,25 @@
   /*border: 1px dashed red;*/
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 1920px;
+
 }
 .header-logo {
-  display: flex;
+
   width: 121px;
   height: 97px;
   margin-left: 230px;
-  background-repeat: no-repeat;
+
   background-image: url(image/logo.svg);
-  background-size: cover;
-  background-position: center;
+
+}
+.header-logo a {
+  position: fixed;
+  width: 121px;
+  height: 97px;
 }
 .list-first {
   display: flex;
-  margin-left: 104px;
+  margin-left: 144px;
   list-style-type: none;
   justify-content: center;
   align-items: center;
@@ -54,16 +55,11 @@
 .list-first li {
   margin-left: 40px;
   margin-right: 40px;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-size: 16px;
-  color: #ffffff;
+
   font-family: 'Montserrat', sans-serif;
 }
 .list-second li {
-  text-decoration: none;
-  box-sizing: border-box;
-  font-size: 16px;
+
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
@@ -97,15 +93,19 @@
   width: 80%;
   height: 80%;
 }
+.list-first a{
+  color: white;
+  text-decoration: none;
+}
 .list-second a{
   color: white;
   text-decoration: none;
 }
 /* Тут шапка заканчивается */
 .title-1 {
-  display: flex;
-  width: 533px;
-  height: 146px;
+
+  max-width: 533px;
+
   font-family: 'Montserrat';
   font-size: 60px;
   font-weight: 100;
@@ -122,9 +122,9 @@
   margin-bottom: 145px;
 }
 .title-3 {
-  display: flex;
+
   /* border: 1px dashed red; */
-  width: 385px;
+  max-width: 385px;
   font-family: 'Montserrat';
   font-size: 16px;
   font-weight: 300;
@@ -150,13 +150,12 @@
 
 .main-navigation {
   display: flex;
-  width: 100%;
+
   height: 164px;
   /* border: 1px dashed red; */
   background-color: #222227;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+
 }
 .list-three {
   display: flex;
@@ -169,7 +168,7 @@
   display:flex;
   /* border: 1px dashed red; */
   height: 45px;
-  margin-left: 0px;
+  
   padding-right: 90px;
   padding-left: 80px;
   font-family: 'Montserrat';

@@ -9,12 +9,12 @@
   <body>
     <header class="header"> <img src="image/picture_main.svg" class="picture_main">
       <nav class="navigation-header">
-        <div class="header-logo"><a href="index.html"></a>
+        <div class="header-logo">
         </div>
         <ul class="list-first">
-          <li><a href="тестирование.html">Тестирование</a></li>
-          <li><a href="аудит.html">Аудит</a></li>
-          <li><a href="о нас.html">О нас</a></li>
+          <li>Тестирование</li>
+          <li>Аудит</li>
+          <li>О нас</li>
         </ul>
         <ul class="list-second">
           <li class="header-bottom">Заказать</li>
@@ -94,6 +94,7 @@
   </div>
 </sec>
 <!-- ФУТТЕР -->
+</section>
 <section class="three_section">
     <div class="three_section_block1">
       <h1 class="three_section_h1">Закажите сейчас</h1>
