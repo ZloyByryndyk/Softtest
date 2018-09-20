@@ -331,6 +331,7 @@ background-color: #2b2c33;
   margin-top: 91px;
   margin-bottom: 90px;
 }
+<<<<<<< HEAD
 
 /* Медиа запросы для разных разрешений */
 @media screen and (min-width: 320px) {
@@ -338,3 +339,5 @@ background-color: #2b2c33;
   color: red;
 }
 }
+=======
+>>>>>>> 49651eda91eafc150c8682094c090ea8353ad149

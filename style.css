@@ -21,13 +21,23 @@
 
 }
 .header-logo {
+<<<<<<< HEAD
 
+=======
+  display: flex;
+  position: relative;
+>>>>>>> 49651eda91eafc150c8682094c090ea8353ad149
   width: 121px;
   height: 97px;
   margin-left: 230px;
 
   background-image: url(image/logo.svg);
 
+}
+.header-logo a {
+  position: fixed;
+  width: 121px;
+  height: 97px;
 }
 .header-logo a {
   position: fixed;
