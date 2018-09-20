@@ -3,7 +3,7 @@
 .header {
 background-color: #2b2c33;
 }
-.header__nav {
+.header__nav  {
   display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
