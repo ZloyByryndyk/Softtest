@@ -21,12 +21,8 @@
 
 }
 .header-logo {
-<<<<<<< HEAD
-
-=======
   display: flex;
   position: relative;
->>>>>>> 49651eda91eafc150c8682094c090ea8353ad149
   width: 121px;
   height: 97px;
   margin-left: 230px;
@@ -178,7 +174,7 @@
   display:flex;
   /* border: 1px dashed red; */
   height: 45px;
-  
+
   padding-right: 90px;
   padding-left: 80px;
   font-family: 'Montserrat';
@@ -246,7 +242,7 @@
 }
 .block_1 {
   display: block;
-  width: 113px;
+
   height: 143px;
   /* border: 1px dashed red; */
   background-image: url(image/2.svg);
@@ -256,7 +252,7 @@
 .span_1 {
   display: block;
   /* border: 1px dashed red; */
-  width: 227px;
+
   height: 101px;
   font-family: 'Montserrat';
   font-size: 40px;
@@ -292,8 +288,8 @@
   min-height: 71px;
   /* border: 1px dashed red; */
 }
-.main_block2.first_section::before,
-.main_block2.second_section:before {
+.main_block2.first::before,
+.main_block2.second:before {
   display: block;
   font-family: sans-serif;
   bottom: 0;
@@ -305,7 +301,7 @@
   color: rgba(81, 106, 145, 0.15);
   transition-duration: 0.2s;
 }
-.main_block2.second_section:before {
+.main_block2.second:before {
   content: "2";
 }
 .main_block2:hover::before {
@@ -347,12 +343,12 @@
    background-color: #ffffff;
 }
 .second_section_h1 {
-  width: 590px;
+
   font-family: 'Montserrat';
   font-size: 60px;
   font-weight: 600;
   font-style: normal;
-  text-align: left;
+
   color: #2b2c33;
   margin-top: 140px;
   margin-left: 231px;
@@ -426,7 +422,7 @@
 }
 /* третья секция часть 2 */
 .second_section_h2 {
-  width: 590px;
+
   font-family: 'Montserrat';
   font-size: 60px;
   font-weight: 600;
@@ -437,12 +433,12 @@
 }
 .Number {
   display: inline-block;
-  height: 73px;
+
   font-family: 'Montserrat';
   font-size: 60px;
   font-weight: 300;
   font-style: normal;
-  text-align: left;
+
   color: #3a5695;
   /* border: 1px dashed red; */
 }
