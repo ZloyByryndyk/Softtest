@@ -561,6 +561,7 @@
   padding: 16px 28px;
   margin-bottom: 142px;
   border: 0px;
+  
 }
 .footer {
   display: flex;
@@ -584,7 +585,7 @@
 /* Адаптивка */
 @media screen and (min-width: 120px) {
   .picture_main {
-    
+
     width: auto;
     position: absolute;
     background-color: black;
