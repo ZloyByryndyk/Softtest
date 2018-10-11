@@ -580,3 +580,19 @@
   margin-top: 91px;
   margin-bottom: 90px;
 }
+
+/* Адаптивка */
+@media screen and (min-width: 120px) {
+  .picture_main {
+    
+    width: auto;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+  }
+  .list-second li {
+
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
